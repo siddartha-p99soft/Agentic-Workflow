@@ -11,6 +11,7 @@ permissions:
   pull-requests: read
   copilot-requests: write
 strict: true
+model: gpt-6-luna
 network:
   allowed:
     - github.blog
