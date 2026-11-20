@@ -23,6 +23,9 @@ tools:
   edit: true
   web-fetch: {}
 safe-outputs:
+  threat-detection:
+    continue-on-error: true 
+  report-failure-as-issue: false  
   create-pull-request:
     title-prefix: "[GitHub Info] "
     draft: false
